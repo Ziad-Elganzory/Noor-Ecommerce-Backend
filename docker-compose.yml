@@ -53,7 +53,7 @@ services:
             - PMA_HOST=mysql
             - PMA_PORT=3306
         ports:
-            - 8001:80
+            - '8001:80'
         networks:
             - sail
         depends_on:
